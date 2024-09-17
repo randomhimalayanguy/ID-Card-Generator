@@ -56,7 +56,7 @@ batch_year = ctk.StringVar()
 csv_label = ctk.CTkLabel(app, text="Selected CSV:")
 csv_label.grid(row=0, column=0, padx=20, pady=(20, 0), sticky="w")
 
-csv_display = ctk.CTkLabel(app, text="No file selected", fg_color="gray75", corner_radius=6)
+csv_display = ctk.CTkLabel(app, text="No file selected", fg_color="black", corner_radius=6)
 csv_display.grid(row=1, column=0, padx=20, pady=(0, 10), sticky="ew")
 
 csv_button = ctk.CTkButton(app, text="Select CSV", command=select_csv)
